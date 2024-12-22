@@ -1,0 +1,32 @@
+# Ignore dependencies
+node_modules/
+
+# Ignore build outputs
+dist/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore local environment files (optional)
+.env
+
+# Include everything else (source files like App.tsx, etc.)
+node_modules
+dist/
+*.dmg
+*.zip
+# Ignore dependencies
+node_modules/
+
+# Ignore build outputs
+dist/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore local environment files (optional)
+.env
+
+# Large artifacts
+*.dmg
+*.

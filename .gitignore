@@ -1,0 +1,16 @@
+# Ignore dependencies
+node_modules/
+
+# Ignore build outputs
+dist/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore local environment files (optional)
+.env
+
+# Large artifacts
+*.dmg
+*.zip
+*.app

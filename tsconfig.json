@@ -1,0 +1,17 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./frontend/tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true
+  },
+  "include": [
+    "frontend/src/global.d.ts",
+    "src/global.d.ts"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "build/node",
+
+    // typical node/electron settings
+    "target": "ESNext",
+    "module": "CommonJS",
+    "lib": ["ESNext"],
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    // Example: your electron main process code
+    "electron.js",
+    "preload.ts",
+    "src/electron/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build"
+  ]
+}

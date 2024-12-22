@@ -1,0 +1,21 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "jsx": "react-jsx",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "esModuleInterop":true,
+    "isolatedModules": true
+  },
+  "include": [
+    // if you have global declarations
+    "frontend/src/global.d.ts",
+    "src/global.d.ts"
+  ]
+}

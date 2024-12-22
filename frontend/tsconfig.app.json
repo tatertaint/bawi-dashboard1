@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    // MUST be true for project references
+    "composite": true,
+
+    // If you had noEmit: true before, remove it.
+    // Instead, do something like:
+    "outDir": "build/app",
+
+    "target": "ESNext",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+
+    // Keep or set other strictness flags
+    "strict": true,
+    "skipLibCheck": true,
+
+    // Possibly for Vite
+    "isolatedModules": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "src"  // or "frontend/src"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build"
+  ]
+}
